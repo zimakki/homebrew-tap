@@ -2,23 +2,23 @@ class Inkwell < Formula
   desc "Live markdown preview daemon with file picker and fuzzy search"
   homepage "https://github.com/zimakki/inkwell"
   license "MIT"
-  version "0.2.1"
+  version "0.2.2"
 
   on_macos do
     on_arm do
-      url "https://github.com/zimakki/inkwell/releases/download/v0.2.1/inkwell_darwin_arm64"
-      sha256 "5021d60b73781b3b952c92c91a9d0b5d58930b748c03f91d254de5c6ef1cea01"
+      url "https://github.com/zimakki/inkwell/releases/download/v0.2.2/inkwell_darwin_arm64"
+      sha256 "e14a76bd9869f89be75bd5d5f2904351faabb3e3054467de23629172d95a5aba"
     end
     on_intel do
-      url "https://github.com/zimakki/inkwell/releases/download/v0.2.1/inkwell_darwin_amd64"
-      sha256 "d2d2f81463b465699a44971a0d78ec76d5060d0ed6f14ab380d916411b6382c7"
+      url "https://github.com/zimakki/inkwell/releases/download/v0.2.2/inkwell_darwin_amd64"
+      sha256 "53c36215481aa1c75daf4eff1f03d1a786aecb1e2acda555ad518c10879d4e27"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/zimakki/inkwell/releases/download/v0.2.1/inkwell_linux_amd64"
-      sha256 "3e336b6dc23331b9255f4b9c944a7c333d0a254d11daf642d26e6187e976d4ab"
+      url "https://github.com/zimakki/inkwell/releases/download/v0.2.2/inkwell_linux_amd64"
+      sha256 "583e74bcf9efd1540ac790c5cb46bb29f489fb4e9c571b7d90ed10b9c4e0781a"
     end
   end
 
