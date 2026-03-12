@@ -1,9 +1,9 @@
 class Inkwell < Formula
   desc "Live markdown preview daemon with file picker and fuzzy search"
   homepage "https://github.com/zimakki/inkwell"
-  url "https://github.com/zimakki/inkwell/releases/download/v0.1.2/inkwell"
-  version "0.1.2"
-  sha256 "993573b6f1daa27bf58dae3000a1e8a6c35de47f931078c7cd90ee627d0cf3ab"
+  url "https://github.com/zimakki/inkwell/releases/download/v0.1.3/inkwell"
+  version "0.1.3"
+  sha256 "63e95bc4e1f80578f78ecc39fc699f9319eda45f260aea90ead19a6959595643"
   license "MIT"
 
   depends_on "erlang"
