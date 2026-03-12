@@ -3,7 +3,7 @@ class Inkwell < Formula
   homepage "https://github.com/zimakki/inkwell"
   url "https://github.com/zimakki/inkwell/releases/download/v0.1.0/inkwell"
   version "0.1.0"
-  sha256 "PLACEHOLDER"
+  sha256 "29a66b34dc6befaf60f800e986224a2bf499a17361770b31809d0da0d75c881a"
   license "MIT"
 
   depends_on "erlang"
