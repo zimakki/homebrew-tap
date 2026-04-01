@@ -1,13 +1,13 @@
 cask "inkwell" do
-  version "0.2.21"
+  version "0.2.22"
 
   on_arm do
-    sha256 "cffb0ce9577da7844d4f589fbf53eb34d249fb9de68cc651eb0c6d44fdae40ab"
+    sha256 "42eb8c6f9baf6484188f6f5fdea4f4c30e05d4aeddfde81286c552010b2aa7a6"
     url "https://github.com/zimakki/inkwell/releases/download/v#{version}/Inkwell_darwin_arm64.dmg"
   end
 
   on_intel do
-    sha256 "070c6d315638d34e66e7aa2aead827153bbf05c7ffee8f57c566f62abd3611c3"
+    sha256 "39b76eba9a8ce699355c07d880a55b04da2bc0791dee5cb33eccef3ee23d3044"
     url "https://github.com/zimakki/inkwell/releases/download/v#{version}/Inkwell_darwin_amd64.dmg"
   end
 
