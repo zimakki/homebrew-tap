@@ -1,13 +1,13 @@
 cask "inkwell" do
-  version "0.2.24"
+  version "0.2.25"
 
   on_arm do
-    sha256 "b769d76b505e2ac98af672c4ed3c747327e251fab9328fd64cb58b37330fe64c"
+    sha256 "4583391ce204f4490dbb5dc402284e0e0cd8ca3ef8b5fc1c836338fb115dc278"
     url "https://github.com/zimakki/inkwell/releases/download/v#{version}/Inkwell_darwin_arm64.dmg"
   end
 
   on_intel do
-    sha256 "be1bec579fcae755ffeaa48aa971bf0b1799345ac6793f1a859030dbcad7889f"
+    sha256 "82377d6d827383d8f276164c455ca6df8556df86ff81bc5013dbaa248e77e140"
     url "https://github.com/zimakki/inkwell/releases/download/v#{version}/Inkwell_darwin_amd64.dmg"
   end
 
@@ -16,13 +16,11 @@ cask "inkwell" do
   homepage "https://github.com/zimakki/inkwell"
 
   depends_on macos: ">= :catalina"
-  depends_on formula: "zimakki/tap/inkwell-cli"
 
   app "Inkwell.app"
+  binary "#{appdir}/Inkwell.app/Contents/MacOS/inkwell"
 
   postflight do
-    # The app is ad-hoc signed but not notarized, so macOS quarantine
-    # causes a "damaged and can't be opened" error.  Strip the flag.
     system_command "/usr/bin/xattr",
                    args: ["-cr", "#{appdir}/Inkwell.app"]
   end
