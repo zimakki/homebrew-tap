@@ -2,8 +2,8 @@ class InkwellCli < Formula
   desc "Live markdown preview daemon (deprecated - use the cask instead)"
   homepage "https://github.com/zimakki/inkwell"
   license "MIT"
-  version "0.3.1"
-  url "https://github.com/zimakki/inkwell/archive/refs/tags/v0.3.1.tar.gz"
+  version "0.3.2"
+  url "https://github.com/zimakki/inkwell/archive/refs/tags/v0.3.2.tar.gz"
   sha256 :no_check
 
   disable! date: "2026-04-15",
